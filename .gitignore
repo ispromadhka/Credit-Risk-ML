@@ -1,0 +1,28 @@
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# CatBoost
+catboost_info/
+
+# Local libraries
+turbocat_lib/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Models (large files)
+models/*.cbm
+models/*.pkl
